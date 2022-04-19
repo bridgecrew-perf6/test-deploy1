@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 30px auto; 
+  max-width: 800px;
 }
 
 .App-header {
@@ -7,12 +9,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 2px solid #F4E59A;
+  font-size: 40px;
+  color: #CF6F6E;
 }
 
-.App-link {
-  color: #61dafb;
+.App-footer {
+  border: 1px solid #F4E59A;
+  
 }
+
+
 
 
