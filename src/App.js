@@ -1,18 +1,18 @@
-
-import SearchForm from "./SearchForm.js";
 import './App.css';
+import Dictionary from "./Dictionary.js";
 
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"> Dictionary </header>
-      <SearchForm />
-
-      <footer className="App-footer">
-        <a href="https://github.com/anatick/anatick">Open-source code </a> by Ana Carraça
-      </footer>
+      <div className="container">
+        <header className="App-header"> Dictionary </header>
+        <Dictionary />
+        <footer className="App-footer">
+          <a href="https://github.com/anatick/anatick">Open-source code </a> by Ana Carraça
+        </footer>
+      </div>
     </div>
   );
 }
