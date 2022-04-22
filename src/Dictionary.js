@@ -7,10 +7,9 @@ import "./Dictionary.css"
 
 export default function Dictionary (){
   let [keyword, setKeyword] = useState("");
-  let [results, setResults] = useState({});
+  let [results, setResults] = useState(null);
 
   function handleResponse (response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
   }
 
@@ -35,19 +34,12 @@ export default function Dictionary (){
     <div className="Dictionary">
       <form onSubmit={search}>
         <div className="row">
-          <div className="col">
+          <div className="col-8">
             <input 
             className="WordSearch"
             type="search" onChange={handleKeywordChange}
             />
             <Results results={results} />
-          </div>
-          <div className="col">
-            <input 
-            type="submit"
-            className="SearchButton"
-            value="Search"/>
-
           </div>
 
         </div>
