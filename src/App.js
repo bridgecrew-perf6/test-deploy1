@@ -10,7 +10,7 @@ function App() {
         <header className="App-header"> Dictionary </header>
         <Dictionary />
         <footer className="App-footer">
-          <a href="https://github.com/anatick/anatick">Open-source code </a> by Ana Carraça
+          <a href="https://github.com/anatick/anatick" target="_blank" rel="noopener noreferrer">Open-source code </a> by Ana Carraça
         </footer>
       </div>
     </div>
